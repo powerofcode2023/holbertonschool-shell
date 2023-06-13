@@ -1,0 +1,2 @@
+#!/bin/bash
+dir_list=`ls -l | grep "^d" | grep -v "^d.*\..*" | grep -v "^d.*\..*" | wc -l`
