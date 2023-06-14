@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%b\n" {upper}{upper} | grep -v oo
+printf "%s\n" {upper}{upper} | grep -v oo
